@@ -1,0 +1,20 @@
+{
+	"folders": [
+		{
+			"path": "API"
+		},
+		{
+			"path": "Interpolation"
+		},
+		{
+			"path": "Matrix"
+		},
+		{
+			"path": "Regression"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {}
+}

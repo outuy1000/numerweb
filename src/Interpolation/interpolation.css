@@ -1,0 +1,68 @@
+.set_width_input{
+    width: 100px;
+}
+
+.set_margin{
+    margin: 30px 0px;
+}
+
+.set_margin_left{
+    margin-left: 100px;
+}
+
+.set_margin_left_regression{
+    margin-left: 50px;
+}
+
+.set_margin_top{
+    margin-top: 50px;
+}
+
+.set_margin_bottom{
+    margin-bottom: 10px;
+}
+
+.set_display_x{
+    display: inline-block;
+    width: 100px;
+    text-align: center;
+    font-size: 16px;
+    border: 1px solid rgba(0, 0, 0, 0.19);
+}
+
+.set_center{
+    text-align: center;
+}
+
+.set_head{
+    text-align: center;
+    font-size: 2em;
+}
+
+.set_cal_ex{
+    height: auto;
+    font-size: 20px;
+    border-radius: 5px;
+    margin-left: 130px;
+    margin-bottom: 30px;
+}
+
+.set_cal_ex_spline{
+    height: auto;
+    font-size: 20px;
+    border-radius: 5px;
+    margin-left: 430px;
+    margin-bottom: 30px;
+}
+
+.set_cal_ex_multi{
+    height: auto;
+    font-size: 20px;
+    border-radius: 5px;
+    margin-top: 100px;
+}
+
+.set_button{
+    border: 1px solid black;
+    font-size: 16px;
+}

@@ -1,0 +1,35 @@
+.set{
+    height: auto;
+    border-radius: 5px;
+    font-size: 20px;
+    margin-top: 20px;
+}
+  
+.set_margin_left{
+    margin-left: 70px;
+}
+  
+.set_result{
+    margin-top: 10px;
+}
+  
+.set_head{
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 30px;
+}
+  
+.set_text{
+    font-size: 20px;
+    color: white;
+    padding-left: 10px;
+}
+  
+.set_input{
+    margin-bottom: 10px;
+    border-radius: 6px;
+}
+  
+.set_center{
+    text-align: center;
+}

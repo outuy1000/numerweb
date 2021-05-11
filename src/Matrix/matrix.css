@@ -1,0 +1,33 @@
+.set_width{
+    width: 50px;
+    margin: 10px 10px;
+}
+.set_head{
+    text-align: center;
+    font-size: 2em;
+}
+.set_margin{
+    margin: 30px 0px;
+}
+.set_center{
+    text-align: center;
+}
+.set_button{
+    border: 1px solid black;
+    font-size: 16px;
+}
+.set_cal_ex{
+    height: auto;
+    font-size: 20px;
+    border-radius: 5px;
+    margin-left: 40px;
+}
+.set_margin_div{
+    margin: 60px 0px;
+}
+.set_margin_matrix{
+    margin-bottom: 10px;
+}
+.set_input{
+    display: inline;
+}
