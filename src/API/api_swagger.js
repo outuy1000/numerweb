@@ -1,10 +1,8 @@
 const config = {
     "swagger": "2.0",
     "info": {
-        "description" : "API Document By Swagger. จัดทำหน้านี้ขึ้นเพื่อรวบรวม API ที่ใช้บนเว็บไซต์นี้",
         "title": "Swagger Numerical Method"
     },
-    "host": "my-json-server.typicode.com/oiceo123/Web_Numer",
     
     "paths":{
         "/root_of_equation":{
@@ -12,13 +10,13 @@ const config = {
                 "tags":[
                     "API"
                 ],
-                "summary": "ค้นหาโจทย์ทั้งหมดในเรื่อง Root of Equation",
+                "summary": "ค้นหาโจทย์ทั้งหมดใน Root of Equation",
                 "responses": {
                     "200": {
-                        "description" : "ทำงานสำเร็จ"
+                        "description" : "Success"
                     },
                     "404":{
-                        "description" : "ไม่พบโจทย์"
+                        "description" : "Not Found"
                     }
                 }
             }
@@ -28,7 +26,7 @@ const config = {
                 "tags":[
                     "API"
                 ],
-                "summary": "ระบุหมายเลขโจทย์ในเรื่อง Root of Equation",
+                "summary": "ระบุหมายเลขโจทย์ใน Root of Equation",
                 "parameters": [
                     {
                         "name": "Id",
@@ -41,10 +39,10 @@ const config = {
                 ],
                 "responses": {
                     "200": {
-                        "description" : "ทำงานสำเร็จ"
+                        "description" : "Success"
                     },
                     "404":{
-                        "description" : "ไม่พบโจทย์"
+                        "description" : "Not Found"
                     }
                 }
             }
@@ -57,10 +55,10 @@ const config = {
                 "summary": "ค้นหาโจทย์ทั้งหมดในเรื่อง Matrix",
                 "responses": {
                     "200": {
-                        "description" : "ทำงานสำเร็จ"
+                        "description" : "Success"
                     },
                     "404":{
-                        "description" : "ไม่พบโจทย์"
+                        "description" : "Not Found"
                     }
                 }
             }
@@ -83,10 +81,10 @@ const config = {
                 ],
                 "responses": {
                     "200": {
-                        "description" : "ทำงานสำเร็จ"
+                        "description" : "Success"
                     },
                     "404":{
-                        "description" : "ไม่พบโจทย์"
+                        "description" : "Not Found"
                     }
                 }
             }
@@ -99,10 +97,10 @@ const config = {
                 "summary": "ค้นหาโจทย์ทั้งหมดในเรื่อง Interpolation",
                 "responses": {
                     "200": {
-                        "description" : "ทำงานสำเร็จ"
+                        "description" : "Success"
                     },
                     "404":{
-                        "description" : "ไม่พบโจทย์"
+                        "description" : "Not Found"
                     }
                 }
             }
@@ -125,10 +123,10 @@ const config = {
                 ],
                 "responses": {
                     "200": {
-                        "description" : "ทำงานสำเร็จ"
+                        "description" : "Success"
                     },
                     "404":{
-                        "description" : "ไม่พบโจทย์"
+                        "description" : "Not Found"
                     }
                 }
             }
@@ -141,10 +139,10 @@ const config = {
                 "summary": "ค้นหาโจทย์ทั้งหมดในเรื่อง Regression",
                 "responses": {
                     "200": {
-                        "description" : "ทำงานสำเร็จ"
+                        "description" : "Success"
                     },
                     "404":{
-                        "description" : "ไม่พบโจทย์"
+                        "description" : "NotFound"
                     }
                 }
             }
@@ -167,10 +165,10 @@ const config = {
                 ],
                 "responses": {
                     "200": {
-                        "description" : "ทำงานสำเร็จ"
+                        "description" : "Success"
                     },
                     "404":{
-                        "description" : "ไม่พบโจทย์"
+                        "description" : "Not Found"
                     }
                 }
             }

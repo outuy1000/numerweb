@@ -102,13 +102,10 @@ class Lagrange extends React.Component{
                 </Row>
                 <Row className="set_margin">
                     <Col>
-                        <Button className="set_button" onClick={this.RowReduce}>-</Button>
+                        <Button className="set_button" onClick={this.RowReduce}>ลดขนาด</Button>
                     </Col>
                     <Col>
-                        <Input className="set_center" disabled="disabled" value={this.state.n.toString()}/>
-                    </Col>
-                    <Col>
-                        <Button className="set_button" onClick={this.RowAdd}>+</Button>
+                        <Button className="set_button" onClick={this.RowAdd}>เพิ่มขนาด</Button>
                     </Col>
                 </Row>
                 <Row>
@@ -119,15 +116,14 @@ class Lagrange extends React.Component{
                         <TableXY n={this.state.n} onChange={this.ChangeXY} value={this.state.xy}/>
                     </Col>
                     <Col className="set_margin_left">
-                        <div className="set_margin_bottom">ใส่ค่า X ที่ต้องการ</div>
-                        <div><Input onChange={this.ChangeX} placeholder={"42000"} style={{width: "200px"}} value={this.state.x}/></div>
+                        <div className="set_margin_bottom">Input "X"</div>
+                        <div><Input onChange={this.ChangeX} style={{width: "200px"}} value={this.state.x}/></div>
                     </Col>
                     <Col className="set_margin_left">
-                        <div className="set_margin_bottom">ใส่จำนวนจุดที่ต้องการ</div> 
-                        <div><Input onChange={this.ChangePoint} placeholder={"1,2,3"} style={{width: "200px"}} value={this.state.point}/></div>
+                        <div className="set_margin_bottom">Input "num"</div> 
+                        <div><Input onChange={this.ChangePoint} style={{width: "200px"}} value={this.state.point}/></div>
                     </Col>
                     <Col>
-                        <div><Button className="set_cal_ex" onClick={this.onClickExample}>Example</Button></div>
                         <div><Button type="primary" className="set_cal_ex" onClick={this.Cal}>Calculate</Button></div>
                     </Col>
                 </Row>

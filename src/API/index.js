@@ -1,7 +1,7 @@
 const axios = require('axios')
 
 const api = axios.create({
-    //baseURL : 'https://my-json-server.typicode.com/oiceo123/Web_Numer'
+    baseURL : 'https://my-json-server.typicode.com/outuy1000/numerweb'
 })
 
 const getRoot = () => api.get('/root_of_equation')

@@ -98,13 +98,11 @@ class Cramer extends React.Component{
                 </Row>
                 <Row className="set_margin">
                     <Col>
-                        <Button className="set_button" onClick={this.MatrixReduce}>-</Button>
+                        <Button className="set_button" onClick={this.MatrixReduce}>ลดขนาดMATRIX</Button>
                     </Col>
+                    
                     <Col>
-                        <Input className="set_center" disabled="disabled" value={this.state.n.toString() + ' x ' + this.state.n.toString()}/>
-                    </Col>
-                    <Col>
-                        <Button className="set_button" onClick={this.MatrixAdd}>+</Button>
+                        <Button className="set_button" onClick={this.MatrixAdd}>เพิ่มขนาดMATRIX</Button>
                     </Col>
                 </Row>
                 <Row>
@@ -120,7 +118,6 @@ class Cramer extends React.Component{
                     </Col>
                 </Row>
                 <div className="set_center set_margin_div">
-                    <Button className="set_cal_ex" onClick={this.onClickExample}>Example</Button>
                     <Button type="primary" className="set_cal_ex" onClick={this.Cal}>Calculate</Button>
                 </div>
                 {this.state.result}

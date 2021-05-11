@@ -95,7 +95,6 @@ class Secant extends React.Component{
                     Error: <Input className="set_input" onChange={this.getERR} value={this.state.ERROR} />
                 </div>
                 <div className="set_center">
-                    <Button onClick={this.onClickExample} className="set">Example</Button>
                     <Button type="primary" onClick={this.onClickcal} className="set set_margin_left">Calculate</Button>
                 </div>
                 {this.state.result}

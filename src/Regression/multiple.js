@@ -105,13 +105,10 @@ class Multiple extends React.Component{
                 </Row>
                 <Row className="set_margin">
                     <Col>
-                        <Button className="set_button" onClick={this.RowReduce}>-</Button>
+                        <Button className="set_button" onClick={this.RowReduce}>ลดขนาด</Button>
                     </Col>
                     <Col>
-                        <Input className="set_center" disabled="disabled" value={this.state.n.toString()}/>
-                    </Col>
-                    <Col>
-                        <Button className="set_button" onClick={this.RowAdd}>+</Button>
+                        <Button className="set_button" onClick={this.RowAdd}>เพิ่มขนาด</Button>
                     </Col>
                 </Row>
                 <Row>
@@ -124,20 +121,19 @@ class Multiple extends React.Component{
                         <TableMultiX n={this.state.n} onChange={this.ChangeXY} value={this.state.xy}/>
                     </Col>
                     <Col className="set_margin_left_regression">
-                        <div className="set_margin_bottom">ใส่ค่า X1 ที่ต้องการ</div>
-                        <div><Input onChange={this.ChangeX1} placeholder={"65"} style={{width: "200px"}} value={this.state.x1}/></div>
+                        <div className="set_margin_bottom">Input "X1"</div>
+                        <div><Input onChange={this.ChangeX1} style={{width: "200px"}} value={this.state.x1}/></div>
                     </Col>
                     <Col className="set_margin_left_regression">
-                        <div className="set_margin_bottom">ใส่ค่า X2 ที่ต้องการ</div>
-                        <div><Input onChange={this.ChangeX2} placeholder={"65"} style={{width: "200px"}} value={this.state.x2}/></div>
+                        <div className="set_margin_bottom">Input "X2"</div>
+                        <div><Input onChange={this.ChangeX2} style={{width: "200px"}} value={this.state.x2}/></div>
                     </Col>
                     <Col className="set_margin_left_regression">
-                        <div className="set_margin_bottom">ใส่ค่า X3 ที่ต้องการ</div>
-                        <div><Input onChange={this.ChangeX3} placeholder={"65"} style={{width: "200px"}} value={this.state.x3}/></div>
+                        <div className="set_margin_bottom">Input "X3"</div>
+                        <div><Input onChange={this.ChangeX3} style={{width: "200px"}} value={this.state.x3}/></div>
                     </Col>
                 </Row>
                 <div className="set_center">
-                    <Button className="set_cal_ex_multi" onClick={this.onClickExample}>Example</Button>
                     <Button type="primary" className="set_cal_ex_multi set_margin_left_regression" onClick={this.Cal}>Calculate</Button>
                 </div>
                 <div className="set_margin_top">
